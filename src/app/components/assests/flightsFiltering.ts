@@ -1,5 +1,5 @@
-import type { Flight } from "../../types/flight";
-import { FilterState } from "../components/FlightFilters";
+import type { Flight } from "../../../types/flight";
+import { FilterState } from "../../components/FlightFilters";
 
 export function filterAndSortFlights(
   flights: Flight[],

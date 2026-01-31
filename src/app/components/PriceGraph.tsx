@@ -16,6 +16,7 @@ interface PriceGraphProps {
 export function PriceGraph({ flights }: PriceGraphProps) {
   // Dynamically calculate price ranges based on flight data
   const getPriceRanges = () => {
+    // fallback Ranges
     if (flights.length === 0) {
       return [
         { range: "$0-$300", min: 0, max: 300 },
